@@ -12,4 +12,4 @@ https://docs.microsoft.com/en-us/windows/win32/wes/subscribing-to-events#pull-su
     LPWSTR pwsPath = L"Microsoft-Windows-Sysmon/Operational"; \
     LPWSTR pwsQuery = L"*"; 
     
-4 parse sysmon (xml) \
+4 parse sysmon (xml) 
