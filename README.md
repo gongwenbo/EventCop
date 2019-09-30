@@ -17,6 +17,6 @@ https://docs.microsoft.com/en-us/windows/win32/wes/subscribing-to-events#pull-su
 
 
     
-4 parse sysmon (xml) 
+4 parse sysmon (xml)  \
 5 You can use a bookmark when you query for or subscribe to events to begin reading events from that bookmarked event \
 https://docs.microsoft.com/en-us/windows/win32/wes/bookmarking-events
