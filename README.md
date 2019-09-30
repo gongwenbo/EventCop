@@ -10,6 +10,8 @@ https://docs.microsoft.com/en-us/windows/win32/wes/subscribing-to-events#pull-su
 
 3 modify EventCop\
     LPWSTR pwsPath = L"Microsoft-Windows-Sysmon/Operational"; \
-    LPWSTR pwsQuery = L"*"; 
+    LPWSTR pwsQuery = L"*";   LPWSTR pwsQuery = L"*[System[EventID=12 or EventID=13]]" \
+    https://docs.microsoft.com/en-us/windows/win32/wes/eventschema-eventtype-complextype \
+    https://docs.microsoft.com/en-us/windows/win32/wes/eventschema-systempropertiestype-complextype
     
 4 parse sysmon (xml) 
